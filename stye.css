@@ -10,3 +10,11 @@ section {
     align-items: center;
     justify-content: center;
 }
+
+.container {
+    background-color: #e0e0e0;
+    width: 90%;
+    height: 500px;
+    max-width: 350px;
+    border-radius: 32px;
+}
