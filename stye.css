@@ -21,3 +21,10 @@ section {
     box-shadow: 7px 7px 14px #828282, -7px -7px 14px #ffffff;
     overflow: hidden;
 }
+
+.display {
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+}
