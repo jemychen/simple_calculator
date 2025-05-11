@@ -65,3 +65,26 @@ section {
     transform: translateY(0.5rem);
     place-items: center;
 }
+
+.button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 100px;
+    background: #e0e0e0;
+    box-shadow: 5px 5px 11px #aaaaaa, -5px -5px 11px #ffffff;
+}
+
+.button:hover {
+    background-color: rgb(30, 43, 46);
+    color: white;
+}
+
+.btn-0 {
+    grid-column: 1/3;
+}
