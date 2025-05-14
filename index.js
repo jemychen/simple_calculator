@@ -1,0 +1,1 @@
+const display1El = document.querySelector('.display-1')
