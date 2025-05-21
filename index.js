@@ -23,3 +23,10 @@ numbersEl.forEach((number) => {
         display2El.innerText = dis2Num
     })
 })
+
+operationEl.forEach((operation) => {
+    operation.addEventListener('click', (e) => {
+        if (!dis2Num) return
+        haveDot = false
+    })
+})
