@@ -39,6 +39,7 @@ operationEl.forEach((operation) => {
         console.log(result)
     })
 })
+
 function clearVar(name = '') {
     dis1Num += dis2Num + ' ' + name + ' '
     display1El.innerText = dis1Num
@@ -47,10 +48,10 @@ function clearVar(name = '') {
     tempResultEl.innerText = result
 }
 
-function clearVar(name = '') {
-    dis1Num += dis2Num + ' ' + name + ' '
-    display1El.innerText = dis1Num
-    display2El.innerText = ''
-    dis2Num = ''
-    tempResultEl.innerText = result
+function mathOperation() {
+    if (lastOperation === 'x') {
+        result = parseFloat(result) * parseFloat(dis2Num)
+    } else if (lastOperation === '+') {
+        result = parseFloat(result) + parseFloat(dis2Num)
+    }
 }
