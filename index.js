@@ -61,3 +61,14 @@ function mathOperation() {
         result = parseFloat(result) % parseFloat(dis2Num)
     }
 }
+
+equalEl.addEventListener('click', () => {
+    if (!dis2Num || !dis1Num) return
+    haveDot = false
+    mathOperation()
+    clearInterval()
+    display2El.innerText = result
+    tempResultEl.innerText = ''
+    dis2Num = result
+    dis1Num = ''
+})
