@@ -81,3 +81,9 @@ clearAllEl.addEventListener('click' , () => {
     result = ''
     tempResultEl.innerText = ''
 })
+
+clearLastEl.addEventListener('click', () => {
+    display2El.innerText = ''
+    dis2Num = ''
+})
+
