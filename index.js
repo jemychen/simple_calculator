@@ -102,5 +102,11 @@ window.addEventListener('keydown', (e) => {
         e.key === '.'
     ) {
         clickButton(e.key)
+    } else if (e.key === '+' || e.key === '-' || e.key === '/' || e.key === '%') {
+        clickOperation(e.key)
+    } else if (e.key === '*') {
+        clickOperation('x')
+    } else if (e.key == 'Enter' || e.key == '=') {
+        clickEqual()
     }
 })
