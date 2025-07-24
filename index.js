@@ -110,3 +110,9 @@ window.addEventListener('keydown', (e) => {
         clickEqual()
     }
 })
+
+function clickButton(key) {
+    numbersEl.forEach((button) => {
+        
+    })
+}
