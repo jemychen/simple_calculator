@@ -113,6 +113,8 @@ window.addEventListener('keydown', (e) => {
 
 function clickButton(key) {
     numbersEl.forEach((button) => {
-        
+        if (button.innerText == key) {
+            button.click()
+        }
     })
 }
