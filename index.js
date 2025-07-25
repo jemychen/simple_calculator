@@ -118,3 +118,15 @@ function clickButton(key) {
         }
     })
 }
+
+function clickOperation(key) {
+    operationEl.forEach((operation) => {
+        if (operation.innerText == key) {
+            operation.click()
+        }
+    })
+}
+
+function clickEqual() {
+    equalEl.click()
+}
