@@ -127,6 +127,6 @@ function clickOperation(key) {
     })
 }
 
-function clickEqual() {
-    equalEl.click()
-}
+// function clickEqual() {
+//     equalEl.click()
+// }
